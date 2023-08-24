@@ -184,6 +184,7 @@ public class LuceneQueryProcessor {
             SqlValidator.Config.DEFAULT);
 
     // Validate the initial AST
+    //dummy
     SqlNode validNode = validator.validate(sqlNode);
 
     // Configure and instantiate the converter of the AST to Logical plan (requires opt cluster)
